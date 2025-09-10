@@ -21,7 +21,7 @@ Um exemplo de implementação pode ser encontrado no projeto Oiti-Sdk-Demo ou cl
 
 ### Changelog
 
-- Acompanhe as novidades das versões do Oiti-Sdk pelo Devcenter ou clicando [aqui]().
+- Acompanhe as novidades das versões do Oiti-Sdk pelo [Devcenter](https://devcenter.certiface.io/docs/guia-detalhado-de-uso-copy#/-changelogs-e-vers%C3%B5es) ou clicando [aqui]().
 
 ---
 ### Saiba mais
@@ -31,10 +31,5 @@ Um exemplo de implementação pode ser encontrado no projeto Oiti-Sdk-Demo ou cl
 - Acessar quadro de **compatibilidade de sistemas e drivers**: [consulte este link](https://devcenter.certiface.io/docs/compatibilidade-dos-servicos).
 
 - Entrar em contato com o **atendimento Oiti**: [consulte este link](https://devcenter.certiface.io/docs/portal-de-atendimento).
-
-
-
-
-
 
 ------
