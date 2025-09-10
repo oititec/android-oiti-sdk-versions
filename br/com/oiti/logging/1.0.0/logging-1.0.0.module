@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.oiti",
+    "module": "logging",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-1.0.0.aar",
+          "url": "logging-1.0.0.aar",
+          "size": 60841,
+          "sha512": "97b39bd604a4c35cbd2c4e8fde314ea5ee6b0d5c664a38f986f7345bb601802134612a5e5ad47ad590aded7a23e1b1c4350cc4ea8c908eb00e569bbed2d09af6",
+          "sha256": "103a724ff7b04eb3fa02d816d48104ca4254827d3b72b594350b227eccdc8959",
+          "sha1": "1ee87311bcbcb4d1687c74ab899379551454ce18",
+          "md5": "b6e945b363e3d406a0d332150e2d2652"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android-support",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "br.com.oiti",
+          "module": "utils",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-1.0.0.aar",
+          "url": "logging-1.0.0.aar",
+          "size": 60841,
+          "sha512": "97b39bd604a4c35cbd2c4e8fde314ea5ee6b0d5c664a38f986f7345bb601802134612a5e5ad47ad590aded7a23e1b1c4350cc4ea8c908eb00e569bbed2d09af6",
+          "sha256": "103a724ff7b04eb3fa02d816d48104ca4254827d3b72b594350b227eccdc8959",
+          "sha1": "1ee87311bcbcb4d1687c74ab899379551454ce18",
+          "md5": "b6e945b363e3d406a0d332150e2d2652"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "logging-1.0.0-sources.jar",
+          "url": "logging-1.0.0-sources.jar",
+          "size": 24061,
+          "sha512": "523116720a1dbe574002d5980cf70c09fd9fd47f2b4bfdd5ac1ebff158174e9e7dfc2c891b025c2e85df0b5cd7b289fedc3875780c6e9db97de35696b005f9c8",
+          "sha256": "5c4ddb67100deecadd681d3697f1aad741af59a2c42f5624f3fcc8ecb8064508",
+          "sha1": "9e02dd8b1beb86705881a5a19f5ff15f27d0ca96",
+          "md5": "1a3888a7d9be6e642eaf5714dfbff1c0"
+        }
+      ]
+    }
+  ]
+}
