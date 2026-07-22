@@ -27,7 +27,7 @@
           "group": "com.facetec",
           "module": "sdk",
           "version": {
-            "requires": "9.7.126"
+            "requires": "9.7.135"
           }
         },
         {
@@ -42,11 +42,11 @@
         {
           "name": "facetecsdk-1.2.1.aar",
           "url": "facetecsdk-1.2.1.aar",
-          "size": 597905,
-          "sha512": "74ac6849eef014580d64ac7509e887d6a9117302b66d8b9188ce8c152f74454c99e9f67fbe760d6669ffbf13e6d20d320192d7c13a7c85a88b63852d658a2212",
-          "sha256": "1d796f017671114530878d023a518e8c2533e9383b4c2d9be22e783c99845fcb",
-          "sha1": "b5ca388d084cc17849277e5cec0bda5db3572ac0",
-          "md5": "449189acd01622936e2f34e10d6122b6"
+          "size": 587372,
+          "sha512": "2751953ff7b163cd2347c77e4c20ed73cfebf9c50c811e7383e871aa61607f17b5ec051cb5e905bcfd5ca51e7a7d2b97da87d12d03225ab93870e8cafbe396ac",
+          "sha256": "a66b6f1df42acde91c9bf49b5fae4ca2cfaa294ed641855296e5e703ae29f825",
+          "sha1": "7a8dd2de8e0b184a57d1f4be84ea646c1a7802cd",
+          "md5": "83bf1a2d59facccf9604674bfc850a20"
         }
       ]
     },
@@ -90,10 +90,6 @@
         {
           "group": "androidx.compose.ui",
           "module": "ui-graphics"
-        },
-        {
-          "group": "androidx.compose.material3",
-          "module": "material3"
         },
         {
           "group": "com.google.android.gms",
@@ -189,13 +185,6 @@
         },
         {
           "group": "androidx.compose.ui",
-          "module": "ui-tooling",
-          "version": {
-            "requires": "1.9.1"
-          }
-        },
-        {
-          "group": "androidx.compose.ui",
           "module": "ui-tooling-preview",
           "version": {
             "requires": "1.9.1"
@@ -228,6 +217,10 @@
           "version": {
             "requires": "2.9.4"
           }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
         },
         {
           "group": "com.google.accompanist",
@@ -282,7 +275,7 @@
           "group": "com.facetec",
           "module": "sdk",
           "version": {
-            "requires": "9.7.126"
+            "requires": "9.7.135"
           }
         },
         {
@@ -297,11 +290,11 @@
         {
           "name": "facetecsdk-1.2.1.aar",
           "url": "facetecsdk-1.2.1.aar",
-          "size": 597905,
-          "sha512": "74ac6849eef014580d64ac7509e887d6a9117302b66d8b9188ce8c152f74454c99e9f67fbe760d6669ffbf13e6d20d320192d7c13a7c85a88b63852d658a2212",
-          "sha256": "1d796f017671114530878d023a518e8c2533e9383b4c2d9be22e783c99845fcb",
-          "sha1": "b5ca388d084cc17849277e5cec0bda5db3572ac0",
-          "md5": "449189acd01622936e2f34e10d6122b6"
+          "size": 587372,
+          "sha512": "2751953ff7b163cd2347c77e4c20ed73cfebf9c50c811e7383e871aa61607f17b5ec051cb5e905bcfd5ca51e7a7d2b97da87d12d03225ab93870e8cafbe396ac",
+          "sha256": "a66b6f1df42acde91c9bf49b5fae4ca2cfaa294ed641855296e5e703ae29f825",
+          "sha1": "7a8dd2de8e0b184a57d1f4be84ea646c1a7802cd",
+          "md5": "83bf1a2d59facccf9604674bfc850a20"
         }
       ]
     },
@@ -317,11 +310,11 @@
         {
           "name": "facetecsdk-1.2.1-sources.jar",
           "url": "facetecsdk-1.2.1-sources.jar",
-          "size": 117891,
-          "sha512": "2e6e7401d6be5b629cf0397993ab0f4ab21b65ea6dd71f3d8bc41070742f37883edaf7c581d82f42fc7958481bd2dbfd0f775bc52c37557c93c517349685aa3f",
-          "sha256": "508dffd31e6df8d91d3c259a97a47f9936a972f6f07950e050833b2f58b20585",
-          "sha1": "754efa5028ffbb4b33d1ad5affc6377b5cbe8047",
-          "md5": "7e9eb034434cf1fcbf85819761a44c2a"
+          "size": 110167,
+          "sha512": "ef0671e58b7a50b1532fb126b8394fc6e0d7498ac6a30774eeddab25a139520ec6e1c4db38bbf4e66b802b36a62fd31f5fae8ddb60939a74684dd3829037c83f",
+          "sha256": "f9be7d74202407099c40a88fe122eb1a88bc19f2922a01d63d5d4c89a9656f82",
+          "sha1": "851b1e3122a29de1e1bed45f547fd9e369aa48ac",
+          "md5": "dab7163fd76ab147f911d6ea20362172"
         }
       ]
     }

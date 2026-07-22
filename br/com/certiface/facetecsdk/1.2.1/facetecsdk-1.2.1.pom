@@ -47,7 +47,7 @@
     <dependency>
       <groupId>com.facetec</groupId>
       <artifactId>sdk</artifactId>
-      <version>9.7.126</version>
+      <version>9.7.135</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -83,11 +83,6 @@
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-graphics</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.compose.material3</groupId>
-      <artifactId>material3</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -167,12 +162,6 @@
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
-      <artifactId>ui-tooling</artifactId>
-      <version>1.9.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling-preview</artifactId>
       <version>1.9.1</version>
       <scope>runtime</scope>
@@ -199,6 +188,11 @@
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-viewmodel-compose</artifactId>
       <version>2.9.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.material3</groupId>
+      <artifactId>material3</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>
