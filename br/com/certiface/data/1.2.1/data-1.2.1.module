@@ -35,11 +35,11 @@
         {
           "name": "data-1.2.1.aar",
           "url": "data-1.2.1.aar",
-          "size": 190190,
-          "sha512": "ef9d957f67acec480e0c89cea85ef24fd2b1d9921aab84c165d2ad242f0faa969efcc35a6a016fe10dc522536be99f117c973b4864254b28386d9c045397afb7",
-          "sha256": "dc1e4bd246e56101fcaada1633d586916988d0cd19143ddcb2ea839357c23060",
-          "sha1": "9cf1432b63c2c8bf308ba545014d3932ffcfe3a0",
-          "md5": "58da124d2b905966a6bd0b2629e27442"
+          "size": 238083,
+          "sha512": "6894e8a287049b12e258e7035eb58cccaaa7c2aa287a5ddb77ecdf537096bc54013fb1c3016832603171935c0093d97dde90c397588e5ef5362c8c188ef92233",
+          "sha256": "5ef6d8026449aff0ab5217b901521587fca5e45688e718af7851bd4f9bea27c7",
+          "sha1": "bb3723247c252845e74c33462931f2aa40f09cf6",
+          "md5": "7270e56244271b21943f87fc2eabe8c2"
         }
       ]
     },
@@ -124,6 +124,13 @@
         },
         {
           "group": "br.com.certiface",
+          "module": "core",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "br.com.certiface",
           "module": "domain",
           "version": {
             "requires": "1.2.1"
@@ -162,11 +169,11 @@
         {
           "name": "data-1.2.1.aar",
           "url": "data-1.2.1.aar",
-          "size": 190190,
-          "sha512": "ef9d957f67acec480e0c89cea85ef24fd2b1d9921aab84c165d2ad242f0faa969efcc35a6a016fe10dc522536be99f117c973b4864254b28386d9c045397afb7",
-          "sha256": "dc1e4bd246e56101fcaada1633d586916988d0cd19143ddcb2ea839357c23060",
-          "sha1": "9cf1432b63c2c8bf308ba545014d3932ffcfe3a0",
-          "md5": "58da124d2b905966a6bd0b2629e27442"
+          "size": 238083,
+          "sha512": "6894e8a287049b12e258e7035eb58cccaaa7c2aa287a5ddb77ecdf537096bc54013fb1c3016832603171935c0093d97dde90c397588e5ef5362c8c188ef92233",
+          "sha256": "5ef6d8026449aff0ab5217b901521587fca5e45688e718af7851bd4f9bea27c7",
+          "sha1": "bb3723247c252845e74c33462931f2aa40f09cf6",
+          "md5": "7270e56244271b21943f87fc2eabe8c2"
         }
       ]
     },
@@ -182,11 +189,11 @@
         {
           "name": "data-1.2.1-sources.jar",
           "url": "data-1.2.1-sources.jar",
-          "size": 21759,
-          "sha512": "05f1de7c1c0a35ee028d6b969f5534800daacd917eff46008845070fbb5bd674114a3362f69dc8496a99118467b83fc23ff63c0d2744c037f4d965f368680b0f",
-          "sha256": "fbbcb143acaf4f68f52647acefb3c9577995c60525b62ca6182f00ce5ad90560",
-          "sha1": "b28be6977fdb10b5122ec495079d0fe74531b289",
-          "md5": "0a7d20b9004773ea3d0e52609198d97b"
+          "size": 34608,
+          "sha512": "7b30fdde0b5ab812fd651137f745f7b6ef2d0e875f0873fa014252b3aefb6c7a108e3907101cb8a594164a71f6b757e3ef37a1c604cb44beb71473776da764b9",
+          "sha256": "04afc02d4c1e04a9a648d34d2b7f50d01f68f4af305ce1fe0ab3ab003d3fccb1",
+          "sha1": "f25d51b1ce3c8213d99a1d41ff598ab2f388a598",
+          "md5": "e75ceb8e7956c54ba8d6739baaaee3e6"
         }
       ]
     }

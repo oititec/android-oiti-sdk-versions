@@ -101,6 +101,12 @@
     </dependency>
     <dependency>
       <groupId>br.com.certiface</groupId>
+      <artifactId>core</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>br.com.certiface</groupId>
       <artifactId>domain</artifactId>
       <version>1.2.1</version>
       <scope>runtime</scope>
