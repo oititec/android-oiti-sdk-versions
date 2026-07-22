@@ -75,6 +75,12 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>br.com.certiface</groupId>
+      <artifactId>fortfacesdk</artifactId>
+      <version>1.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>viewbinding</artifactId>
       <version>8.10.0</version>
