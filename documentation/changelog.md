@@ -79,6 +79,15 @@ override fun onError(result: LivenessResponse) {
 }
 ```
 
+### [Versão 1.2.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.2)
+
+Data: 27/07/2026
+
+### Changed
+- Melhorias de arquitetura.
+- Compatibilidade com estrutura legado.
+
+
 ### [Versão 1.2.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.1)
 
 Data: 24/06/2026
