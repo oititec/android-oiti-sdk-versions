@@ -4,6 +4,63 @@
 
 # Changelog
 
+### [Versão 2.0.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/2.0.0)
+
+Data: 04/08/2026
+
+### Changed
+- Reformulando a arquitetura para o saas e bugfixes
+
+### Breaking / integração
+
+**1. Entrada por journey token (sem AppKey)**
+
+```kotlin
+// FaceTec
+val facetecManager = CertifaceSDK.createLivenessManager(LivenessProvider.FACETEC)
+facetecManager.start(
+    FacetecManagerOptions(journeyToken = journeyToken),
+    callback
+)
+
+// Fortface
+val fortfaceManager = CertifaceSDK.createLivenessManager(LivenessProvider.FORTFACE)
+fortfaceManager.start(
+    FortfaceManagerOptions(journeyToken = journeyToken),
+    callback
+)
+
+// SaaS (resolve FaceTec ou Fortface no backend)
+val saasManager = CertifaceSDK.createSaasLivenessManager()
+saasManager.start(
+    SaasLivenessOptions(journeyToken = journeyToken),
+    callback
+)
+```
+
+**2. Novo provider `FORTFACE`**
+
+```kotlin
+enum class LivenessProvider {
+    IPROOV,
+    FACETEC,
+    FORTFACE
+}
+```
+
+**3. Customização inválida agora aponta a propriedade quebrada**
+
+```kotlin
+override fun onError(result: LivenessResponse) {
+    val error = result.errorResponse
+    if (error?.errorType == LivenessErrorType.INVALID_PARAMS) {
+        // Ex.: "TITLE_FONT", "PERMISSION_BUTTON_FONT", etc.
+        val brokenProperty = error.invalidParam
+        Log.e("Certiface", "Customização inválida em: $brokenProperty")
+    }
+}
+```
+
 ### [Versão 1.3.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.3.0)
 
 Data: 22/07/2026
