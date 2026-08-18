@@ -4,7 +4,7 @@
 
 # Changelog
 
-### [Versão 2.0.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/2.0.1)
+### [Versão 2.0.1](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.1)
 
 Data: 11/08/2026
 
@@ -13,7 +13,7 @@ Data: 11/08/2026
 - Melhorias de segurança
 - Melhorias de performance
 
-### [Versão 2.0.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/2.0.0)
+### [Versão 2.0.0](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.0)
 
 Data: 04/08/2026
 
@@ -70,7 +70,7 @@ override fun onError(result: LivenessResponse) {
 }
 ```
 
-### [Versão 1.3.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.3.0)
+### [Versão 1.3.0](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.3.0)
 
 Data: 22/07/2026
 
@@ -145,7 +145,16 @@ override fun onError(result: LivenessResponse) {
 }
 ```
 
-### [Versão 1.2.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.2)
+### [Versão 1.2.3](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.2.3)
+
+Data: 18/08/2026
+
+### Changed
+- Melhorias de arquitetura.
+- Compatibilidade com estrutura legado.
+- diversos bugfixes
+
+### [Versão 1.2.2](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.2.2)
 
 Data: 27/07/2026
 
@@ -154,7 +163,7 @@ Data: 27/07/2026
 - Compatibilidade com estrutura legado.
 
 
-### [Versão 1.2.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.1)
+### [Versão 1.2.1](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.2.1)
 
 Data: 24/06/2026
 
@@ -162,7 +171,7 @@ Data: 24/06/2026
 - Refatoração da arquitetura
 - IProov: 11.1.11
 
-### [Versão 1.2.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.2.0)
+### [Versão 1.2.0](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.2.0)
 
 Data: 18/06/2026
 
@@ -177,7 +186,7 @@ Data: 18/06/2026
 - Telas de liveness (FaceTec/iProov) refatoradas
 - Correções na tela de resultado do iProov
 
-### [Versão 1.1.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.1.0)
+### [Versão 1.1.0](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.1.0)
 
 Data: 18/12/2025
 
@@ -280,7 +289,7 @@ IProovTheme.build {
 
 ---
 
-### [Versão 1.0.3](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.3)
+### [Versão 1.0.3](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.0.3)
 
 Data: 18/11/2025
 
@@ -295,7 +304,7 @@ Data: 18/11/2025
 
 ---
 
-### [Versão 1.0.2](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.2)
+### [Versão 1.0.2](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.0.2)
 
 Data: 30/10/2025
 
@@ -345,7 +354,7 @@ Data: 30/10/2025
    
 ---
 
-### [Versão 1.0.1](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.1)
+### [Versão 1.0.1](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.0.1)
 
 Data: 03/10/2025
 
@@ -357,7 +366,7 @@ Data: 03/10/2025
 
 ---
 
-### [Versão 1.0.0](https://github.com/oititec/android-oiti-sdk-versions/releases/tag/1.0.0)
+### [Versão 1.0.0](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/1.0.0)
 
 Data: 10/09/2025
 
