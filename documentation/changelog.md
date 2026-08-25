@@ -4,6 +4,16 @@
 
 # Changelog
 
+### [Versão 2.0.3](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.3)
+
+Data: 25/08/2026
+
+### Changed
+- Melhorias de arquitetura
+- Melhorias de segurança
+- Melhorias de performance
+- Atualização do FortFace 1.21.0 -> 1.21.1
+
 ### [Versão 2.0.2](https://github.com/oititec/android-certiface-sdk-versions/releases/tag/2.0.2)
 
 Data: 19/08/2026
